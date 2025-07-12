@@ -48,6 +48,17 @@ pip install -r requirements.txt
 fastapi dev
 ```
 
+API Url: `http://localhost:8000`
+---
+
+## 🧪 API Endpoints
+
+| Method | URL                          | Description                     |
+|--------|------------------------------|---------------------------------|
+| `POST` | `/submit`                    | Submits lead form               |
+| `GET`  | `/track/visit?utm_source=X`  | Logs a visit from IP + UTM      |
+| `GET`  | `/analytics`                 | Returns total leads, visits     |
+
 ---
 
 ### ▶️ 2. Frontend Setup (React + Vite)
@@ -59,16 +70,6 @@ yarn dev
 ```
 
 Open in your browser: `http://localhost:5173`
-
----
-
-## 🧪 API Endpoints
-
-| Method | URL                          | Description                     |
-|--------|------------------------------|---------------------------------|
-| `POST` | `/submit`                    | Submits lead form               |
-| `GET`  | `/track/visit?utm_source=X`  | Logs a visit from IP + UTM      |
-| `GET`  | `/analytics`                 | Returns total leads, visits     |
 
 ---
 
