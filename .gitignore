@@ -1,0 +1,9 @@
+# Ignore all node_modules directories in the frontend
+/frontend/node_modules/*
+/frontend/**/node_modules/*
+/frontend/yarn.lock
+/frontend/dist/*
+# Ignore all node_modules directories in the backend
+/backend/**/node_modules/*
+/backend/__pycache__/*
+/backend/env/*
