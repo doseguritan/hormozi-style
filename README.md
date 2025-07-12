@@ -49,6 +49,7 @@ fastapi dev
 ```
 
 API Url: `http://localhost:8000`
+
 ---
 
 ## 🧪 API Endpoints
